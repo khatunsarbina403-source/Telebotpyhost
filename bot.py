@@ -3,8 +3,8 @@ import telebot
 from telebot import types
 from datetime import date
 
-BOT_TOKEN = "7876309219:AAE340woHrN-UudoVO2T22zzcdIvaQO2pWQ"
-ADMIN_ID = int(os.environ.get("6525785749"))
+BOT_TOKEN = "7876309219:AAFylui-Lh4h3UUew-eIwHD9fa-DHnC-_OA"
+ADMIN_ID = 6525785749
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -350,3 +350,4 @@ def broadcast(message):
 if __name__ == "__main__":
     print("Bot is running...")
     bot.infinity_polling()
+                
