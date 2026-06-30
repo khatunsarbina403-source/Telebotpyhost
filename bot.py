@@ -53,11 +53,11 @@ from datetime import datetime, date
 # ==============================================================================
 
 # Your Telegram Bot Token (get it from @BotFather)
-BOT_TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "7876309219:AAFylui-Lh4h3UUew-eIwHD9fa-DHnC-_OA"
 
 # The ONLY Telegram numeric user ID that is allowed to open the Admin Panel.
 # You can get your numeric ID from a bot like @userinfobot.
-ADMIN_ID = 123456789
+ADMIN_ID = 6525785749
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
